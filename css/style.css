@@ -184,13 +184,14 @@
 .header_pag{
     height: 80px;
     z-index: 2;
-    width: 1900px;
+    right: 0;
+    left: 0;
     /* background: rgb(141, 202, 81); */
-    backdrop-filter: blur(75px);
-    background: rgba(204, 204, 204, 0.2);
+    backdrop-filter: blur(25px);
+    background: rgba(255, 255, 255, 0.212);
+    /* background-color: rgb(232 235 236 / 82%); */
     z-index: 20;
     position: fixed;
-    left: 100px;
     top: 0px;
     /* opacity: 0; */
 }
